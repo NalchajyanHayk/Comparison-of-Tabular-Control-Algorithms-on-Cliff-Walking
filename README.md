@@ -96,7 +96,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-#3. Output Files
+# 3. Output Files
 
 After execution, the following files are generated inside the `outputs/` folder:
 
