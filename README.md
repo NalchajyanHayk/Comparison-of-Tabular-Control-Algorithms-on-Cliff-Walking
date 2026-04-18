@@ -51,11 +51,50 @@ rl_cliffwalking/
 └── README.md
 ```
 
-# Reinforcement Learning Tabular Control Methods Comparison
+# 2. How to Run the Project
 
-## CliffWalking-v1 Environment
+### 2.1 How to build and run with Docker
 
-### 3. Output Files
+#### Build image
+```bash id="docker_run_101"
+docker build -t rl-cliffwalking .
+```
+#### Build container
+```bash
+docker run --rm -v $(pwd)/outputs:/app/outputs rl-cliffwalking
+```
+
+#### On Windows PowerShell, use:
+```bash
+docker run --rm -v ${PWD}/outputs:/app/outputs rl-cliffwalking
+```
+
+### 2.2 Run the Project using virtual environment
+
+#### On macOS / Linux
+```bash id="local_run_001"
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### On Windows PowerShell
+```bash
+python -m venv venv
+venv\Scripts\Activate.ps1
+```
+
+#### Install dependencies
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+#### Run the project
+```bash
+python main.py
+```
+
+#3. Output Files
 
 After execution, the following files are generated inside the `outputs/` folder:
 
@@ -67,7 +106,7 @@ After execution, the following files are generated inside the `outputs/` folder:
 - **hyperparameters.json** — full experiment configuration
 - **run.log** — execution logs produced with Python logging
 
-### 4. Experiment Setup
+# 4. Experiment Setup
 
 The experiment was run with the following hyperparameters:
 
@@ -84,7 +123,7 @@ The experiment was run with the following hyperparameters:
 
 All algorithms were trained on the same environment with the same experimental setup to ensure a fair comparison.
 
-### 5. Project Goal
+# 5. Project Goal
 
 The goal of this project is to compare different tabular control methods in reinforcement learning and understand how algorithm design affects:
 
@@ -101,7 +140,7 @@ This comparison is especially useful for understanding:
 
 ---
 
-### 6. Results
+# 6. Results
 
 #### 6.1 Final Performance Summary
 
@@ -144,7 +183,7 @@ Monte Carlo Control performed the worst overall:
 
 This indicates that it did not learn a useful policy for this setup and remained far behind all TD-based methods.
 
-### 7. Learning Curve Discussion
+# 7. Learning Curve Discussion
 
 The learning curves show several important patterns:
 
@@ -154,7 +193,7 @@ The learning curves show several important patterns:
 
 **Conclusion from plots**: The one-step TD methods clearly outperformed both Monte Carlo and the multi-step implementations in this experiment.
 
-### 8. Conclusions
+# 8. Conclusions
 
 This experiment shows that for the current CliffWalking-v1 setup:
 
@@ -165,7 +204,7 @@ This experiment shows that for the current CliffWalking-v1 setup:
 
 **Overall**, the results suggest that in this implementation and hyperparameter setting, **one-step temporal-difference methods** were the most effective and reliable.
 
-### 9. Notes
+# 9. Notes
 
 - All algorithms were implemented from scratch.
 - No external RL libraries such as Stable-Baselines, RLlib, or CleanRL were used.
