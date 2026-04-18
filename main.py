@@ -5,8 +5,8 @@ import traceback
 
 from config import ExperimentConfig
 from experiment_manager import ExperimentManager
-from plotting import PlotManager
 from logger_config import LoggerFactory
+from plotting import PlotManager
 
 
 class Main:
@@ -24,10 +24,16 @@ class Main:
 
             logger.info("Training completed. Creating plots and saving outputs.")
 
-            PlotManager.plot_learning_curves(
+            PlotManager.plot_learning_curves_faceted(
                 reward_history=reward_history,
                 smoothing_window=config.smoothing_window,
-                save_path=os.path.join(config.output_dir, "learning_curves.png"),
+                save_path=os.path.join(config.output_dir, "learning_curves_faceted.png"),
+            )
+
+            PlotManager.plot_learning_curves_combined(
+                reward_history=reward_history,
+                smoothing_window=config.smoothing_window,
+                save_path=os.path.join(config.output_dir, "learning_curves_combined.png"),
             )
 
             PlotManager.plot_final_comparison(

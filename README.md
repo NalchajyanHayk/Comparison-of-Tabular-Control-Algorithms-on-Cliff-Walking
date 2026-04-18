@@ -174,5 +174,4 @@ This experiment shows that for the current CliffWalking-v1 setup:
 
 ---
 **Prepared by:** Hayk Nalchajyan
-**Environment:** CliffWalking-v1  
 **Date:** April 2026
