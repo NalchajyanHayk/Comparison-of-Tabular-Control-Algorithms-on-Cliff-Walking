@@ -12,7 +12,6 @@ This project implements and compares six **tabular reinforcement learning contro
 The assignment requires all algorithms to be implemented from scratch, use tabular \(Q(s,a)\), apply \(\epsilon\)-greedy action selection where appropriate, and compare them fairly on the same environment with multiple random seeds, reward tracking, learning curves, and final performance comparison. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
 
 ---
-
 # 1. Project Structure
 
 ```text
@@ -27,6 +26,11 @@ rl_cliffwalking/
 ├── evaluator.py
 ├── plotting.py
 ├── experiment_manager.py
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── .dockerignore
+├── README.md
 │
 ├── algorithms/
 │   ├── __init__.py
@@ -38,18 +42,16 @@ rl_cliffwalking/
 │   ├── n_step_sarsa.py
 │   └── n_step_q_learning.py
 │
-├── outputs/
-│   ├── learning_curves.png
-│   ├── final_comparison.png
-│   ├── per_seed_results.csv
-│   ├── summary_results.csv
-│   ├── training_rewards.csv
-│   ├── hyperparameters.json
-│   └── run.log
-│
-├── requirements.txt
-└── README.md
-```
+└── outputs/
+    ├── learning_curves_faceted.png
+    ├── learning_curves_combined.png
+    ├── final_comparison.png
+    ├── per_seed_results.csv
+    ├── summary_results.csv
+    ├── training_rewards.csv
+    ├── hyperparameters.json
+    └── run.log
+``` 
 
 # 2. How to Run the Project
 
