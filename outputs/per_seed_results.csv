@@ -1,0 +1,31 @@
+algorithm,seed,avg_train_reward_last_100,greedy_eval_mean,greedy_eval_std
+Monte Carlo,0,-569.3,-500.0,0.0
+SARSA,0,-25.75,-17.0,0.0
+Q-Learning,0,-46.93,-13.0,0.0
+Expected SARSA,0,-21.67,-15.0,0.0
+4-step SARSA,0,-39.09,-500.0,0.0
+4-step Q-Learning,0,-76.04,-500.0,0.0
+Monte Carlo,1,-660.38,-500.0,0.0
+SARSA,1,-27.99,-17.0,0.0
+Q-Learning,1,-54.18,-13.0,0.0
+Expected SARSA,1,-20.99,-15.0,0.0
+4-step SARSA,1,-56.91,-17.0,0.0
+4-step Q-Learning,1,-32.64,-17.0,0.0
+Monte Carlo,2,-675.23,-500.0,0.0
+SARSA,2,-26.69,-17.0,0.0
+Q-Learning,2,-51.93,-13.0,0.0
+Expected SARSA,2,-23.13,-15.0,0.0
+4-step SARSA,2,-39.32,-17.0,0.0
+4-step Q-Learning,2,-34.1,-500.0,0.0
+Monte Carlo,3,-526.73,-500.0,0.0
+SARSA,3,-25.06,-17.0,0.0
+Q-Learning,3,-45.31,-13.0,0.0
+Expected SARSA,3,-21.01,-15.0,0.0
+4-step SARSA,3,-90.82,-500.0,0.0
+4-step Q-Learning,3,-32.12,-17.0,0.0
+Monte Carlo,4,-63.57,-500.0,0.0
+SARSA,4,-23.66,-17.0,0.0
+Q-Learning,4,-39.77,-13.0,0.0
+Expected SARSA,4,-22.02,-15.0,0.0
+4-step SARSA,4,-35.82,-21.0,0.0
+4-step Q-Learning,4,-38.41,-19.0,0.0

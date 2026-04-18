@@ -1,0 +1,112 @@
+2026-04-18 16:58:21 | INFO | rl_cliffwalking | Launching main pipeline
+2026-04-18 16:58:21 | INFO | rl_cliffwalking | Configuration: {'env_name': 'CliffWalking-v1', 'num_episodes': 800, 'alpha': 0.5, 'gamma': 1.0, 'epsilon': 0.1, 'n_step': 4, 'seeds': [0, 1, 2, 3, 4], 'eval_episodes': 100, 'smoothing_window': 20, 'max_steps_per_episode': 500, 'output_dir': 'outputs'}
+2026-04-18 16:58:21 | INFO | rl_cliffwalking | Starting experiment
+2026-04-18 16:58:21 | INFO | rl_cliffwalking | Configuration: {'env_name': 'CliffWalking-v1', 'num_episodes': 800, 'alpha': 0.5, 'gamma': 1.0, 'epsilon': 0.1, 'n_step': 4, 'seeds': [0, 1, 2, 3, 4], 'eval_episodes': 100, 'smoothing_window': 20, 'max_steps_per_episode': 500, 'output_dir': 'outputs'}
+2026-04-18 16:58:21 | INFO | rl_cliffwalking | Running experiments for seed=0
+2026-04-18 16:58:21 | INFO | rl_cliffwalking | Training algorithm=Monte Carlo | seed=0
+2026-04-18 16:58:24 | INFO | rl_cliffwalking | Finished Monte Carlo | seed=0 | last100=-569.300 | eval_mean=-500.000 | eval_std=0.000
+2026-04-18 16:58:24 | INFO | rl_cliffwalking | Training algorithm=SARSA | seed=0
+2026-04-18 16:58:24 | INFO | rl_cliffwalking | Finished SARSA | seed=0 | last100=-25.750 | eval_mean=-17.000 | eval_std=0.000
+2026-04-18 16:58:24 | INFO | rl_cliffwalking | Training algorithm=Q-Learning | seed=0
+2026-04-18 16:58:24 | INFO | rl_cliffwalking | Finished Q-Learning | seed=0 | last100=-46.930 | eval_mean=-13.000 | eval_std=0.000
+2026-04-18 16:58:24 | INFO | rl_cliffwalking | Training algorithm=Expected SARSA | seed=0
+2026-04-18 16:58:24 | INFO | rl_cliffwalking | Finished Expected SARSA | seed=0 | last100=-21.670 | eval_mean=-15.000 | eval_std=0.000
+2026-04-18 16:58:24 | INFO | rl_cliffwalking | Training algorithm=4-step SARSA | seed=0
+2026-04-18 16:58:25 | INFO | rl_cliffwalking | Finished 4-step SARSA | seed=0 | last100=-39.090 | eval_mean=-500.000 | eval_std=0.000
+2026-04-18 16:58:25 | INFO | rl_cliffwalking | Training algorithm=4-step Q-Learning | seed=0
+2026-04-18 16:58:26 | INFO | rl_cliffwalking | Finished 4-step Q-Learning | seed=0 | last100=-76.040 | eval_mean=-500.000 | eval_std=0.000
+2026-04-18 16:58:26 | INFO | rl_cliffwalking | Running experiments for seed=1
+2026-04-18 16:58:26 | INFO | rl_cliffwalking | Training algorithm=Monte Carlo | seed=1
+2026-04-18 16:58:29 | INFO | rl_cliffwalking | Finished Monte Carlo | seed=1 | last100=-660.380 | eval_mean=-500.000 | eval_std=0.000
+2026-04-18 16:58:29 | INFO | rl_cliffwalking | Training algorithm=SARSA | seed=1
+2026-04-18 16:58:29 | INFO | rl_cliffwalking | Finished SARSA | seed=1 | last100=-27.990 | eval_mean=-17.000 | eval_std=0.000
+2026-04-18 16:58:29 | INFO | rl_cliffwalking | Training algorithm=Q-Learning | seed=1
+2026-04-18 16:58:29 | INFO | rl_cliffwalking | Finished Q-Learning | seed=1 | last100=-54.180 | eval_mean=-13.000 | eval_std=0.000
+2026-04-18 16:58:29 | INFO | rl_cliffwalking | Training algorithm=Expected SARSA | seed=1
+2026-04-18 16:58:29 | INFO | rl_cliffwalking | Finished Expected SARSA | seed=1 | last100=-20.990 | eval_mean=-15.000 | eval_std=0.000
+2026-04-18 16:58:29 | INFO | rl_cliffwalking | Training algorithm=4-step SARSA | seed=1
+2026-04-18 16:58:30 | INFO | rl_cliffwalking | Finished 4-step SARSA | seed=1 | last100=-56.910 | eval_mean=-17.000 | eval_std=0.000
+2026-04-18 16:58:30 | INFO | rl_cliffwalking | Training algorithm=4-step Q-Learning | seed=1
+2026-04-18 16:58:30 | INFO | rl_cliffwalking | Finished 4-step Q-Learning | seed=1 | last100=-32.640 | eval_mean=-17.000 | eval_std=0.000
+2026-04-18 16:58:30 | INFO | rl_cliffwalking | Running experiments for seed=2
+2026-04-18 16:58:30 | INFO | rl_cliffwalking | Training algorithm=Monte Carlo | seed=2
+2026-04-18 16:58:33 | INFO | rl_cliffwalking | Finished Monte Carlo | seed=2 | last100=-675.230 | eval_mean=-500.000 | eval_std=0.000
+2026-04-18 16:58:33 | INFO | rl_cliffwalking | Training algorithm=SARSA | seed=2
+2026-04-18 16:58:33 | INFO | rl_cliffwalking | Finished SARSA | seed=2 | last100=-26.690 | eval_mean=-17.000 | eval_std=0.000
+2026-04-18 16:58:33 | INFO | rl_cliffwalking | Training algorithm=Q-Learning | seed=2
+2026-04-18 16:58:33 | INFO | rl_cliffwalking | Finished Q-Learning | seed=2 | last100=-51.930 | eval_mean=-13.000 | eval_std=0.000
+2026-04-18 16:58:33 | INFO | rl_cliffwalking | Training algorithm=Expected SARSA | seed=2
+2026-04-18 16:58:34 | INFO | rl_cliffwalking | Finished Expected SARSA | seed=2 | last100=-23.130 | eval_mean=-15.000 | eval_std=0.000
+2026-04-18 16:58:34 | INFO | rl_cliffwalking | Training algorithm=4-step SARSA | seed=2
+2026-04-18 16:58:34 | INFO | rl_cliffwalking | Finished 4-step SARSA | seed=2 | last100=-39.320 | eval_mean=-17.000 | eval_std=0.000
+2026-04-18 16:58:34 | INFO | rl_cliffwalking | Training algorithm=4-step Q-Learning | seed=2
+2026-04-18 16:58:34 | INFO | rl_cliffwalking | Finished 4-step Q-Learning | seed=2 | last100=-34.100 | eval_mean=-500.000 | eval_std=0.000
+2026-04-18 16:58:34 | INFO | rl_cliffwalking | Running experiments for seed=3
+2026-04-18 16:58:34 | INFO | rl_cliffwalking | Training algorithm=Monte Carlo | seed=3
+2026-04-18 16:58:38 | INFO | rl_cliffwalking | Finished Monte Carlo | seed=3 | last100=-526.730 | eval_mean=-500.000 | eval_std=0.000
+2026-04-18 16:58:38 | INFO | rl_cliffwalking | Training algorithm=SARSA | seed=3
+2026-04-18 16:58:38 | INFO | rl_cliffwalking | Finished SARSA | seed=3 | last100=-25.060 | eval_mean=-17.000 | eval_std=0.000
+2026-04-18 16:58:38 | INFO | rl_cliffwalking | Training algorithm=Q-Learning | seed=3
+2026-04-18 16:58:38 | INFO | rl_cliffwalking | Finished Q-Learning | seed=3 | last100=-45.310 | eval_mean=-13.000 | eval_std=0.000
+2026-04-18 16:58:38 | INFO | rl_cliffwalking | Training algorithm=Expected SARSA | seed=3
+2026-04-18 16:58:38 | INFO | rl_cliffwalking | Finished Expected SARSA | seed=3 | last100=-21.010 | eval_mean=-15.000 | eval_std=0.000
+2026-04-18 16:58:38 | INFO | rl_cliffwalking | Training algorithm=4-step SARSA | seed=3
+2026-04-18 16:58:39 | INFO | rl_cliffwalking | Finished 4-step SARSA | seed=3 | last100=-90.820 | eval_mean=-500.000 | eval_std=0.000
+2026-04-18 16:58:39 | INFO | rl_cliffwalking | Training algorithm=4-step Q-Learning | seed=3
+2026-04-18 16:58:39 | INFO | rl_cliffwalking | Finished 4-step Q-Learning | seed=3 | last100=-32.120 | eval_mean=-17.000 | eval_std=0.000
+2026-04-18 16:58:39 | INFO | rl_cliffwalking | Running experiments for seed=4
+2026-04-18 16:58:39 | INFO | rl_cliffwalking | Training algorithm=Monte Carlo | seed=4
+2026-04-18 16:58:40 | INFO | rl_cliffwalking | Finished Monte Carlo | seed=4 | last100=-63.570 | eval_mean=-500.000 | eval_std=0.000
+2026-04-18 16:58:40 | INFO | rl_cliffwalking | Training algorithm=SARSA | seed=4
+2026-04-18 16:58:40 | INFO | rl_cliffwalking | Finished SARSA | seed=4 | last100=-23.660 | eval_mean=-17.000 | eval_std=0.000
+2026-04-18 16:58:40 | INFO | rl_cliffwalking | Training algorithm=Q-Learning | seed=4
+2026-04-18 16:58:40 | INFO | rl_cliffwalking | Finished Q-Learning | seed=4 | last100=-39.770 | eval_mean=-13.000 | eval_std=0.000
+2026-04-18 16:58:40 | INFO | rl_cliffwalking | Training algorithm=Expected SARSA | seed=4
+2026-04-18 16:58:41 | INFO | rl_cliffwalking | Finished Expected SARSA | seed=4 | last100=-22.020 | eval_mean=-15.000 | eval_std=0.000
+2026-04-18 16:58:41 | INFO | rl_cliffwalking | Training algorithm=4-step SARSA | seed=4
+2026-04-18 16:58:41 | INFO | rl_cliffwalking | Finished 4-step SARSA | seed=4 | last100=-35.820 | eval_mean=-21.000 | eval_std=0.000
+2026-04-18 16:58:41 | INFO | rl_cliffwalking | Training algorithm=4-step Q-Learning | seed=4
+2026-04-18 16:58:41 | INFO | rl_cliffwalking | Finished 4-step Q-Learning | seed=4 | last100=-38.410 | eval_mean=-19.000 | eval_std=0.000
+2026-04-18 16:58:41 | INFO | rl_cliffwalking | Experiment finished successfully
+2026-04-18 16:58:41 | INFO | rl_cliffwalking | Training completed. Creating plots and saving outputs.
+2026-04-18 16:58:41 | INFO | rl_cliffwalking | Per-seed results:
+        algorithm  seed  avg_train_reward_last_100  greedy_eval_mean  greedy_eval_std
+      Monte Carlo     0                    -569.30            -500.0              0.0
+            SARSA     0                     -25.75             -17.0              0.0
+       Q-Learning     0                     -46.93             -13.0              0.0
+   Expected SARSA     0                     -21.67             -15.0              0.0
+     4-step SARSA     0                     -39.09            -500.0              0.0
+4-step Q-Learning     0                     -76.04            -500.0              0.0
+      Monte Carlo     1                    -660.38            -500.0              0.0
+            SARSA     1                     -27.99             -17.0              0.0
+       Q-Learning     1                     -54.18             -13.0              0.0
+   Expected SARSA     1                     -20.99             -15.0              0.0
+     4-step SARSA     1                     -56.91             -17.0              0.0
+4-step Q-Learning     1                     -32.64             -17.0              0.0
+      Monte Carlo     2                    -675.23            -500.0              0.0
+            SARSA     2                     -26.69             -17.0              0.0
+       Q-Learning     2                     -51.93             -13.0              0.0
+   Expected SARSA     2                     -23.13             -15.0              0.0
+     4-step SARSA     2                     -39.32             -17.0              0.0
+4-step Q-Learning     2                     -34.10            -500.0              0.0
+      Monte Carlo     3                    -526.73            -500.0              0.0
+            SARSA     3                     -25.06             -17.0              0.0
+       Q-Learning     3                     -45.31             -13.0              0.0
+   Expected SARSA     3                     -21.01             -15.0              0.0
+     4-step SARSA     3                     -90.82            -500.0              0.0
+4-step Q-Learning     3                     -32.12             -17.0              0.0
+      Monte Carlo     4                     -63.57            -500.0              0.0
+            SARSA     4                     -23.66             -17.0              0.0
+       Q-Learning     4                     -39.77             -13.0              0.0
+   Expected SARSA     4                     -22.02             -15.0              0.0
+     4-step SARSA     4                     -35.82             -21.0              0.0
+4-step Q-Learning     4                     -38.41             -19.0              0.0
+2026-04-18 16:58:41 | INFO | rl_cliffwalking | Summary across seeds:
+        algorithm  avg_train_reward_last_100_mean  avg_train_reward_last_100_std  greedy_eval_mean_mean  greedy_eval_mean_std
+       Q-Learning                         -47.624                       5.679884                  -13.0              0.000000
+   Expected SARSA                         -21.764                       0.881465                  -15.0              0.000000
+            SARSA                         -25.830                       1.636567                  -17.0              0.000000
+4-step Q-Learning                         -42.662                      18.821879                 -210.6            264.186109
+     4-step SARSA                         -52.392                      23.019422                 -211.0            263.824752
+      Monte Carlo                        -499.042                     251.202526                 -500.0              0.000000
+2026-04-18 16:58:41 | INFO | rl_cliffwalking | Artifacts saved under: outputs/

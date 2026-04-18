@@ -1,0 +1,19 @@
+{
+    "env_name": "CliffWalking-v1",
+    "num_episodes": 800,
+    "alpha": 0.5,
+    "gamma": 1.0,
+    "epsilon": 0.1,
+    "n_step": 4,
+    "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ],
+    "eval_episodes": 100,
+    "smoothing_window": 20,
+    "max_steps_per_episode": 500,
+    "output_dir": "outputs"
+}
