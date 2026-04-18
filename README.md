@@ -49,6 +49,7 @@ rl_cliffwalking/
 │
 ├── requirements.txt
 └── README.md
+```
 
 # Reinforcement Learning Tabular Control Methods Comparison
 
@@ -172,6 +173,6 @@ This experiment shows that for the current CliffWalking-v1 setup:
 - The project was designed in a modular OOP style so that each algorithm can be trained and evaluated separately.
 
 ---
-**Prepared by:** Hayk  
+**Prepared by:** Hayk Nalchajyan
 **Environment:** CliffWalking-v1  
 **Date:** April 2026
