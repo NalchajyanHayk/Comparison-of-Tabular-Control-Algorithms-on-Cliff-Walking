@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  rl_cliffwalking:
+    build: .
+    container_name: rl_cliffwalking_container
+    volumes:
+      - ./outputs:/app/outputs
+    command: python main.py
